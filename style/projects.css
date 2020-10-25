@@ -1,0 +1,119 @@
+.project {
+    background-color: #f8f9fa;
+    width: 100%;
+    max-width: 1920px;
+    height: 1630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project > .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1140px;
+    height: 1310px;
+}
+
+.project > .container > .shoreline {
+    display: flex;
+    align-items: center;
+    width: 1116px;
+    height: 465px;
+}
+
+.project > .container > .shoreline img {
+    width: 744px;
+    height: 465px;
+}
+
+.project > .container > .shoreline .text1 {
+    padding-left: 30px;
+    border-left: 8px solid #64a19d;;
+}
+
+.project > .container > .shoreline > .text1 p {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.project > .container > .shoreline > .text1 h4 {
+    letter-spacing: 0.1em;
+}
+
+.project > .container > .misty {
+    display: flex;
+    align-items: center;
+    width: 1116px;
+    height: 398px;
+    background-color: black;
+}
+
+.project > .container > .misty img {
+    width: 558px;
+    height: 398px;
+    max-height: 100%;
+}
+
+.project > .container > .misty > .text2 h4 {
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+.project > .container > .misty > .text2 p {
+    font-size: 0.8em;
+    color: #757575;  
+}
+
+.project > .container > .misty > .text2 {
+    width: 398px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+div .img {
+    width: 558px;
+    height: 398px;
+}
+
+.project > .container > .mountains {
+    display: flex;
+    align-items: center;
+    width: 1116px;
+    height: 398px;
+    background-color: black;
+}
+
+.project > .container > .mountains img {
+    width: 558px;
+    height: 398px;
+    max-height: 100%;
+}
+
+.project > .container > .mountains > .text2 h4 {
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+.project > .container > .mountains > .text2 p {
+    font-size: 0.8em;
+    color: #757575;
+}
+
+.project > .container > .mountains > .text2 {
+    width: 398px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+hr {
+    margin-top: 5px;
+    border-color: #64a19d;
+    border-width: 0.1em;
+    width: 30%;
+}
+
+.text2 span {
+    display: flex;
+    justify-content: flex-end;
+}
