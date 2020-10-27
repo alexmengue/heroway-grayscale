@@ -53,11 +53,13 @@
 }
 
 @media (max-width: 599px) {
+  
   .grayscale h1 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .grayscale p {
-    font-size: 0.9em;
+    font-size: 0.8em;
+    width: 100%;
   }
 }

@@ -38,11 +38,17 @@
 }
 
 @media (max-width: 599px) {
+    
     .about > .container > .text {
         width: 80%;
     }
 
     .about > .container > .img {
         width: 90%;
+    }
+
+    .about > .container > .text p {
+        font-size: 0.8em;
+        width: 100%;
     }
 }

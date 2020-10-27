@@ -186,4 +186,13 @@ div .img {
         border-color: #000000;
         width: 0
     }
+
+    .project > .container > .misty .text2  {
+            width: 70%;
+    }
+
+    .project > .container > .mountains .text2  {
+        width: 70%;
+}
+
 }
