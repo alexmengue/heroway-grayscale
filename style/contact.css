@@ -1,0 +1,64 @@
+.contact {
+    background-color: #000000;
+    height: 415px;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.contact > .container > .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact > .container > .content div {
+    background-color: #fff;
+    width: 356px;
+    height: 207px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 5px;
+    border-bottom: 5px solid #64a19d;
+    margin: 0 10px;
+}
+
+.contact > .container > .content img {
+    width: 20px;
+}
+
+.contact > .container > .content h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.contact > .container > .content p {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.contact hr {
+    margin-top: 5px;
+    border-color: #64a19d;
+    border-width: 0.1em;
+    width: 15%;
+}
+
+.contact > .container > .social img {
+    width: 50px;
+   background-color: white;
+   margin: 0 10px;
+}
+
+.contact > .container > .social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contact span {
+    color: #64a19d;
+}

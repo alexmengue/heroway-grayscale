@@ -4,6 +4,9 @@
 @import 'grayscale.css';
 @import 'about.css';
 @import 'projects.css';
+@import 'subscribe.css';
+@import 'contact.css';
+@import 'footer.css';
 
 * {
     box-sizing: border-box;

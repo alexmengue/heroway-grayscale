@@ -1,5 +1,6 @@
 .grayscale {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url(../images/bg-masthead.jpg);
+    background-position: center;
     height: 1188px;
     display: flex;
     justify-content: center;

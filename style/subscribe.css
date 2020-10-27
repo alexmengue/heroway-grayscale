@@ -1,0 +1,58 @@
+.subscribe {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url(../images/bg-signup.jpg);
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe > .container {
+    width: 1140px;
+    height: 188px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subscribe > .container h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.subscribe > .container input {
+    width: 569px;
+    height: 59px;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    height: 55px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    border-radius: 5px;
+}
+
+.subscribe > .container button {
+    cursor: pointer;
+    color: #fff;
+    background-color: #64a19d;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1);
+    padding: 20px 35px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 5px;
+    letter-spacing: 0.1em;
+}
+
+.subscribe > .container button:hover {
+    background-color: #528f8b;
+}
+
+.subscribe > .container img {
+    width: 40px;
+}
+
+.filter-white {
+    filter: invert(99%) sepia(1%) saturate(4420%) hue-rotate(269deg) brightness(50%) contrast(96%);
+}

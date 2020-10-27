@@ -106,7 +106,7 @@ div .img {
     text-align: right;
 }
 
-hr {
+.project hr {
     margin-top: 5px;
     border-color: #64a19d;
     border-width: 0.1em;
