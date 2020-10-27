@@ -54,5 +54,22 @@
 }
 
 .filter-white {
-    filter: invert(99%) sepia(1%) saturate(4420%) hue-rotate(269deg) brightness(50%) contrast(96%);
+    filter: invert(99%) sepia(1%) saturate(4420%) hue-rotate(269deg) brightness(121%) contrast(96%);
+}
+
+@media (max-width: 599px) {
+
+    .subscribe {
+        text-align: center;
+        height: 500px;
+        margin-top: 500px;
+    }
+
+    .subscribe > .container input {
+        width: 100%;
+    }
+
+    .subscribe > .container {
+        height: auto;
+    }
 }

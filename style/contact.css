@@ -48,8 +48,8 @@
 
 .contact > .container > .social img {
     width: 50px;
-   background-color: white;
-   margin: 0 10px;
+    background-color: white;
+    margin: 0 10px;
 }
 
 .contact > .container > .social {
@@ -61,4 +61,29 @@
 
 .contact span {
     color: #64a19d;
+}
+
+.filter-gray {
+    filter: invert(99%) sepia(1%) saturate(4420%) hue-rotate(269deg) brightness(15%) contrast(100%);
+}
+
+@media (max-width: 599px) {
+
+    .contact {
+        height: auto;
+    }
+
+    .contact > .container > .content {
+        flex-direction: column;
+    }
+    
+    .contact > .container > .content div {
+        width: 95%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .contact > .container {
+        width: 100%;
+    }
 }

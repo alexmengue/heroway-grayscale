@@ -13,12 +13,12 @@
 }
 
 .about > .container > .text {
-    width: 760px;
+    width: 40%;
     margin: 0 auto;
 }
 
 .about > .container > .img {
-    width: 1116px;
+    width: 60%;
     justify-content: center;
     height: auto;
 }
@@ -35,4 +35,14 @@
 
 .about span {
     color: #64a19d;
+}
+
+@media (max-width: 599px) {
+    .about > .container > .text {
+        width: 80%;
+    }
+
+    .about > .container > .img {
+        width: 90%;
+    }
 }
