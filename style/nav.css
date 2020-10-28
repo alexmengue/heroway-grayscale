@@ -16,8 +16,12 @@
 
 .nav > .container > .menu {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+.nav > .container > .menu span {
+    padding: 0 20px;
 }
 
 .nav a {
@@ -41,5 +45,9 @@
 
     .nav > .container {
         max-width: 100%;
+    }
+
+    .nav > .container > .menu {
+        justify-content: space-around;
     }
 }

@@ -64,7 +64,7 @@
 }
 
 .filter-gray {
-    filter: invert(99%) sepia(1%) saturate(4420%) hue-rotate(269deg) brightness(15%) contrast(100%);
+    filter: invert(99%) sepia(1%) saturate(100%) hue-rotate(269deg) brightness(50%) contrast(100%);
 }
 
 @media (max-width: 599px) {
